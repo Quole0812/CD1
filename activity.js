@@ -13,9 +13,9 @@ Using the following array of objects,
 // (1) Write an arrow function that adds a new entry to bookList
 addEntry = (title, author) => bookList.push({title: title, author: author});
 // (2) Write an arrow function that removes a specific book from the bookList
-removeEntry = (title, author) => bookList.splice(index({title, author}), 1)
+removeEntry = (title, author) => bookList.splice(bookList.findIndex(book => book.title == title && book.author == author), 1)
 // (3) Write an arrow function that lists out all the books or all the authors in the book list */
-
+printEntry = () => bookList.forEach((obj) => console.log(obj));
 
 
 addEntry("bruh", "bruh");
