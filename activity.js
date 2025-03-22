@@ -26,9 +26,11 @@ printEntry();
 
 /* (4) Write a one-line arrow function that takes in a number and returns a string stating whether the
   number is positive or negative using a ternary operator (assume the number will never be zero) */
-
+oddEven = (num) => num % 2 === 0 ? "even" : "odd";
+console.log(oddEven(43))
 /* (5) Write a switch statement for a 'day' variable that prints out something based off of what day of
   the week it is i.e. if it's Monday, print "good luck" or wednesday print "hump day" or friday print "party" */
+
 
 /* (6) Write an arrow function that takes in a number, and uses a for loop to return the sum of every
   number from 1 up to that number
