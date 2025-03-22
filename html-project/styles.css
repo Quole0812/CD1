@@ -1,0 +1,18 @@
+body {
+    background-color: aquamarine;
+}
+
+
+p {
+	color: blue;
+}
+
+
+.test {
+    background-color: beige;
+}
+
+#id_test {
+    text-align: center;
+    color: gray;
+  }
